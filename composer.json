@@ -1,5 +1,5 @@
 {
-    "name": "nodes/counter-cache",
+    "name": "tangfastics2014/counter-cache",
     "description": "Counter caching for Laravel",
     "keywords": [
         "nodes",
@@ -10,17 +10,14 @@
         "model"
     ],
     "license": "MIT",
-    "homepage": "http://nodesagency.com",
     "authors": [
         {
-            "name": "Morten Rugaard",
-            "email": "moru@nodes.dk",
-            "role": "Developer"
+            "name": "Tangfastics",
+            "email": "tangfastics2014@gmail.com",
         }
     ],
     "require": {
         "laravel/framework": "5.1.*||5.2.*||5.3.*||5.4.*",
-        "nodes/core": "^1.0"
     },
     "autoload": {
         "psr-4": {
