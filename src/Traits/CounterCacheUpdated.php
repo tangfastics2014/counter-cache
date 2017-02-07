@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Traits;
+namespace Tangfastics\CounterCache\Traits;
 
 /**
  * Trait CounterCacheUpdated.
@@ -20,7 +20,7 @@ trait CounterCacheUpdated
     public static function bootCounterCacheUpdated()
     {
         static::updated(function ($model) {
-            app('Nodes\CounterCache\CounterCache')->count($model);
+            app('Tangfastics\CounterCache\CounterCache')->count($model);
         });
     }
 }
