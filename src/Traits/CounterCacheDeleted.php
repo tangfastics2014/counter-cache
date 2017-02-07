@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Traits;
+namespace Tangfastics\CounterCache\Traits;
 
 /**
  * Trait CounterCacheDeleted.
@@ -20,7 +20,7 @@ trait CounterCacheDeleted
     public static function bootCounterCacheDeleted()
     {
         static::deleted(function ($model) {
-            app('Nodes\CounterCache\CounterCache')->count($model);
+            app('Tangfastics\CounterCache\CounterCache')->count($model);
         });
     }
 }
