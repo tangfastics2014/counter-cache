@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Traits;
+namespace Tangfastics\CounterCache\Traits;
 
 /**
  * Trait CounterCache.
