@@ -12,6 +12,11 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Morten Rugaard",
+            "email": "moru@nodes.dk",
+            "role": "Developer"
+        },
+        {
             "name": "Tangfastics",
             "email": "tangfastics2014@gmail.com"
         }
