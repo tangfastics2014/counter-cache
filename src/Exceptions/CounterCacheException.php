@@ -1,8 +1,8 @@
 <?php
 
-namespace Nodes\CounterCache\Exceptions;
+namespace Tangfastics\CounterCache\Exceptions;
 
-use Nodes\Exceptions\Exception as NodesException;
+use Tangfastics\Exceptions\Exception as NodesException;
 
 /**
  * Class CounterCacheException.
