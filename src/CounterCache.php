@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache;
+namespace Tangfastics\CounterCache;
 
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 use Illuminate\Database\Eloquent\Relations\Relation as IlluminateRelation;
