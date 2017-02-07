@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Traits;
+namespace Tangfastics\CounterCache\Traits;
 
 /**
  * Trait CounterCacheRestored.
@@ -21,7 +21,7 @@ trait CounterCacheRestored
     {
         if (method_exists(__CLASS__, 'restored')) {
             static::restored(function ($model) {
-                app('Nodes\CounterCache\CounterCache')->count($model);
+                app('Tangfastics\CounterCache\CounterCache')->count($model);
             });
         }
     }
