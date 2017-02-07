@@ -140,8 +140,8 @@ class CounterCache
         $countQuery = $model->newQuery()
             ->select(DB::raw(sprintf('COUNT(%s.id)', $model->getTable())))
             ->join(
-                DB::raw(sprintf('(SELECT %s.%s FROM %s) as relation', $relationTableName, $relation->getOtherKey(), $relationTableName)),
-                $relation->getQualifiedForeignKey(), '=', sprintf('relation.%s', $relation->getOtherKey())
+                DB::raw(sprintf('(SELECT %s.%s FROM %s) as relation', $relationTableName, $relation->getOwnerKey(), $relationTableName)),
+                $relation->getQualifiedForeignKey(), '=', sprintf('relation.%s', $relation->getOwnerKey())
             )
             ->where($relation->getQualifiedForeignKey(), '=', $this->prepareValue($foreignKey));
 
