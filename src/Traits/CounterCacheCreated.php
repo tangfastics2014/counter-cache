@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Traits;
+namespace Tangfastics\CounterCache\Traits;
 
 /**
  * Trait CounterCacheCreated.
@@ -20,7 +20,7 @@ trait CounterCacheCreated
     public static function bootCounterCacheCreated()
     {
         static::created(function ($model) {
-            app('Nodes\CounterCache\CounterCache')->count($model);
+            app('Tangfastics\CounterCache\CounterCache')->count($model);
         });
     }
 }
