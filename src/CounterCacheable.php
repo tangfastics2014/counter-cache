@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache;
+namespace Tangfastics\CounterCache;
 
 /**
  * Interface CounterCacheable.
