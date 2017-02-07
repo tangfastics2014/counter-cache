@@ -1,3 +1,5 @@
+# This is an fork edit from [nodes-php/counter-cache](https://github.com/nodes-php/counter-cache), updated to work with [Laravel](http://laravel.com) 5.4
+
 ## Counter Cache
 
 Brings the ruby concept of "counter caching" to [Laravel](http://laravel.com/docs).
