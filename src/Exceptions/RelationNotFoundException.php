@@ -1,6 +1,6 @@
 <?php
 
-namespace Nodes\CounterCache\Exceptions;
+namespace Tangfastics\CounterCache\Exceptions;
 
 /**
  * Class RelationNotFoundException.
