@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nodes\\CounterCache\\": "src"
+            "Tangfastics\\CounterCache\\": "src"
         }
     }
 }
